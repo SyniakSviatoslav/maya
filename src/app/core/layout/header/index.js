@@ -9,6 +9,7 @@ const Header = () => {
         <header>
             <div className="header-content">
                 <Link to={homePath}>
+                <img  alt="Mayan Glyph" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mayan_Glyph.svg/64px-Mayan_Glyph.svg.png"></img>
                 </Link>
 
                 <nav>
