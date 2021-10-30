@@ -1,6 +1,13 @@
-.main{
-    height: 1000vh;
+.layout{
     max-width: 100%;
+    min-height: 100vh;
+}
+
+.main{
+min-height: 100vh;
+padding-top: 63px;
+max-width: 1200px;
+margin: 0 auto;
 }
 
 #myVideo{

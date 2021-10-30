@@ -1,7 +1,12 @@
 import React from 'react';
 import Layout from './core/layout';
 import './index.css';
-import { Switch, Route} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+import AboutComponent from './pages/about';
+import CollectionComponent from './pages/collection';
+import SignInComponent from './pages/sign-in';
+import HomeComponent from './pages/home';
+import PublishComponent from './pages/publish';
 import { collectionPath, publishPath, aboutPath, signInPath, homePath } from './constants';
 
 
@@ -10,16 +15,19 @@ const AppComponent = () => {
     <Layout>
       <Switch>
         <Route path={collectionPath}>
-          Collection
+          <CollectionComponent />
         </Route>
         <Route path={aboutPath}>
-          About
+          <AboutComponent />
         </Route>
         <Route path={publishPath}>
-          Publish
+          <PublishComponent />
         </Route>
         <Route path={signInPath}>
-          Sign In
+          <SignInComponent />
+        </Route>
+        <Route path={homePath}>
+          <HomeComponent />
         </Route>
       </Switch>
     </Layout>
