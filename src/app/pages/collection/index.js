@@ -1,10 +1,18 @@
 import React from "react";
-import './index.css';
+import { Switch, Route } from "react-router-dom";
+import CollectionDetails from './collection-details';
+import CollectionListComponent from './collection-list';
 
-const CollectionComponent = () => {
+const CollectionRoute = () => {
     
     return (
-        <div className="collection">Collection</div>
+        <Switch>
+            <Route path="/collection/:collectionId" component={CollectionDetails}>
+            </Route>
+            <Route path="/collection">
+                <CollectionListComponent/>
+            </Route>
+        </Switch>
     );
 }
-export default CollectionComponent;
+export default CollectionRoute;
