@@ -1,10 +1,10 @@
 import React from "react";
 import './index.css';
 
-const AboutComponent = () => {
+const CollectionDetailComponent = () => {
     
     return (
-        <div className="about">About</div>
+        <div className="about">Some detail about this card</div>
     );
 }
-export default AboutComponent;
+export default CollectionDetailComponent;
