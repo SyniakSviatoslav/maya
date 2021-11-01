@@ -7,7 +7,7 @@ class CollectionDetailComponent extends Component {
     constructor(props){
         super(props);
         this.state = {
-            isLoaded: false,
+            isLoaded: true,
             error: null,
             collection: null
         }
