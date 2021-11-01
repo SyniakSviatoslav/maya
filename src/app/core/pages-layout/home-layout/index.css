@@ -1,0 +1,59 @@
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.slideTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+}
+
+h1{
+font-size: 60px;
+font-weight: lighter;
+}
+
+#introVideo{
+  max-width: 100%;
+}
+
+.informationForVisitor{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #E5E5E5;
+}
+
+h2{
+  color:rgb(214, 27, 52)
+}
+
+.lineTitle{
+  padding-top: 20px;
+  height: 1px;
+  width: 200px;
+  border-bottom: 3px solid rgb(214, 27, 52);
+}
+
+.informationForVisitor p{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
