@@ -4,7 +4,7 @@ import './index.css';
 import { apiUrl, collectionPath } from '../../../constants'
 import { Link } from 'react-router-dom';
 import { imageUrl } from '../../../constants'
-import CollectionCard from "../../../core/layout/card";
+import ListCard from "../../../core/layout/list-card";
 
 class CollectionListComponent extends Component {
     constructor(props) {
@@ -34,7 +34,7 @@ class CollectionListComponent extends Component {
         return (
             <div className="collections">
                 {collections.map((collection) => (
-                   <CollectionCard key={collection.card} collection={collection}/>
+                   <ListCard key={collection.card} collection={collection}/>
                 ))}
 
             </div>

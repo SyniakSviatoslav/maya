@@ -3,7 +3,7 @@ import './index.css';
 import { collectionPath } from '../../../constants'
 import { Link } from 'react-router-dom';
 
-const CollectionCard = ({ collection }) => {
+const ListCard = ({ collection }) => {
     return (
         <Link to={`${collectionPath}/${collection.id}`}>
             <div className="collection-card" >
@@ -35,4 +35,4 @@ const CollectionCard = ({ collection }) => {
     )
 }
 
-export default CollectionCard;
+export default ListCard;

@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './index.css';
 import { apiUrl } from "../../../constants";
-import CollectionCard from "../../../core/layout/card";
+import CollectionCard from "../../../core/layout/list-card";
 
 class CollectionDetailComponent extends Component {
     constructor(props){
