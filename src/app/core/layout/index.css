@@ -1,0 +1,16 @@
+.layout{
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+.main{
+min-height: 100vh;
+padding-top: 63px;
+max-width: 100%;
+margin: 0 auto;
+background-color: rgb(19, 17, 17);
+}
+
+#myVideo{
+    max-width: 100%;
+}
