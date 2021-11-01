@@ -1,7 +1,7 @@
 import React, {Component} from "react";
-import './index.css';
-import { apiUrl } from "../../../constants";
+import { apiUrl } from "../../../constants/app";
 import CollectionCard from "../../../core/collection-card";
+import LoaderComponent from "../../../assets/loader";
 
 class CollectionDetailComponent extends Component {
     constructor(props){
@@ -23,7 +23,7 @@ class CollectionDetailComponent extends Component {
     render(){
         const {error, collection, isLoaded} = this.state;
         if (error) return <p>{error}</p>
-        if (!isLoaded) return <p>Loading...</p>
+        if (!isLoaded) return <LoaderComponent/>
 
         return (
             <div className="collection">  

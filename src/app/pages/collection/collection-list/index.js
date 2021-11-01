@@ -1,10 +1,9 @@
 
 import React, { Component } from "react";
 import './index.css';
-import { apiUrl, collectionPath } from '../../../constants'
-import { Link } from 'react-router-dom';
-import { imageUrl } from '../../../constants'
-import ListCard from "../../../core/list-card";
+import { apiUrl } from '../../../constants/app'
+import ListCard from "../../../core/preview-card";
+import LoaderComponent from "../../../assets/loader";
 
 class CollectionListComponent extends Component {
     constructor(props) {
@@ -24,13 +23,12 @@ class CollectionListComponent extends Component {
     }
 
     render() {
-        console.log(`${imageUrl}`)
+       
         const { error, collections, isLoaded } = this.state;
 
         if (error) return <p>{error}</p>;
-        if (!isLoaded) return <p>Loading...</p>;
-        console.log(this.state)
-
+        if (!isLoaded) return <LoaderComponent/>;
+        
         return (
             <div className="collections">
                 {collections.map((collection) => (

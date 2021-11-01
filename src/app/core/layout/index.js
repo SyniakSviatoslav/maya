@@ -1,7 +1,7 @@
-import React,{Component} from "react";
+import React from "react";
 import './index.css';
 import Header from './header';
-import FooterComponent from "../footer";
+import FooterComponent from "./footer";
 
 
 

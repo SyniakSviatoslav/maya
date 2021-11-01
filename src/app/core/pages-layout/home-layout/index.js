@@ -2,13 +2,13 @@ import React from "react";
 import './index.css';
 import 'react-slideshow-image/dist/styles.css';
 import { Slide } from 'react-slideshow-image';
-import image1 from '../../../images/costadelgolfo.png';
-import image2 from '../../../images/maya.png';
-import image3 from '../../../images/mexica.png';
-import Video from '../../../video/video.mp4'
+import image1 from '../../../assets/images/costadelgolfo.png';
+import image2 from '../../../assets/images/maya.png';
+import image3 from '../../../assets/images/mexica.png';
+import Video from '../../../assets/video/video.mp4'
 
 const slideImages = [
-    `${image1}`, { image2 }, { image3 }
+    {image1}, { image2 }, { image3 }
 ];
 
 const HomeLayout = () => {

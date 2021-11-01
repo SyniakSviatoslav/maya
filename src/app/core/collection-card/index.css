@@ -88,6 +88,10 @@ a:link {
     border-bottom: 5px solid rgb(214, 27, 52)
   }
 
+  .info h2{
+      color: white;
+  }
+  
   .wrapper-card .info p {
     letter-spacing: 1px;
     font-size: 18px;

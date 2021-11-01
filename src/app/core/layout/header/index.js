@@ -1,7 +1,7 @@
 import React from "react";
 import './index.css';
 import {NavLink, Link} from 'react-router-dom';
-import {collectionPath, publishPath, signInPath, aboutPath, homePath} from "../../../constants";
+import {collectionPath, publishPath, signInPath, aboutPath, homePath} from "../../../constants/urls";
 
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
         <header>
             <div className="header-content">
                 <Link to={homePath}>
-                <img  alt="Mayan Glyph" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mayan_Glyph.svg/64px-Mayan_Glyph.svg.png"></img>
+                <div className="logo">MAYA</div>
                 </Link>
 
                 <nav>

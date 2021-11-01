@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import CollectionDetails from './collection-details';
 import CollectionListComponent from './collection-list';
 
+
 const CollectionRoute = () => {
     
     return (
