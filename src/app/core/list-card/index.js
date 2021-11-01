@@ -1,6 +1,6 @@
 import React from "react";
 import './index.css';
-import { collectionPath } from '../../../constants'
+import { collectionPath } from '../../constants'
 import { Link } from 'react-router-dom';
 
 const ListCard = ({ collection }) => {

@@ -4,7 +4,7 @@ import './index.css';
 import { apiUrl, collectionPath } from '../../../constants'
 import { Link } from 'react-router-dom';
 import { imageUrl } from '../../../constants'
-import ListCard from "../../../core/layout/list-card";
+import ListCard from "../../../core/list-card";
 
 class CollectionListComponent extends Component {
     constructor(props) {

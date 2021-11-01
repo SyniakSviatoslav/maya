@@ -23,3 +23,11 @@ header{
     font-size: 18px;
     text-decoration: none;
 }
+
+.nav-item:hover{
+    color: rgb(214, 27, 52);
+}
+
+.nav-item-active{
+  color:  rgb(214, 27, 52);
+}

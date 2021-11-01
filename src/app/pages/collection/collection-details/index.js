@@ -1,13 +1,13 @@
 import React, {Component} from "react";
 import './index.css';
 import { apiUrl } from "../../../constants";
-import CollectionCard from "../../../core/layout/list-card";
+import CollectionCard from "../../../core/collection-card";
 
 class CollectionDetailComponent extends Component {
     constructor(props){
         super(props);
         this.state = {
-            isLoaded: true,
+            isLoaded: false,
             error: null,
             collection: null
         }
