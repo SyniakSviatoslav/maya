@@ -1,0 +1,40 @@
+.about-wrapper{
+  
+}
+
+.about-text-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  
+  
+}
+
+
+
+.about-paragraph{
+  color: aliceblue;
+  font-size: 20px;
+  max-width: 50%;
+  width: 50%;
+  padding: 50px;
+  backdrop-filter: blur(3px) saturate(180%);
+    -webkit-backdrop-filter: blur(3px) saturate(180%);
+    background-color: rgba(5, 5, 5, 0.5);
+   
+    
+  
+  
+}
+
+.about-title{
+  /* padding: 50px; */
+  padding-bottom: 20px;
+  margin-left: 2%;
+  max-width: 50%;
+  font-weight: bolder;
+  color: white;
+  border-bottom: 3px solid rgb(214, 27, 52)
+}
+

@@ -22,7 +22,7 @@ const HomeLayout = () => {
                 </div>
             <Slide easing="ease">
                 <div className="each-slide">
-                    <div style={{ 'backgroundImage': `url(${slideImages[0]})` }}>
+                    <div style={{ 'backgroundImage': {image1} }}>
                         <span>Slide 1</span>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import { apiUrl } from '../../../constants/app'
 import ListCard from "../../../core/preview-card";
 import LoaderComponent from "../../../assets/loader";
 
+
 class CollectionListComponent extends Component {
     constructor(props) {
         super(props);
@@ -23,6 +24,7 @@ class CollectionListComponent extends Component {
     }
 
     render() {
+        console.log(this.state);
        
         const { error, collections, isLoaded } = this.state;
 

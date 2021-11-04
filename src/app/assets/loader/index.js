@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Loader from "react-loader-spinner";
 
 const LoaderComponent = () => {
-  const [spinnerLoading, setSpinnerLoading] = useState(true);
+  const [spinnerLoading] = useState(true);
 
   return (
     <div style={{ textAlign: "center" }}>
