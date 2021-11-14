@@ -2,7 +2,7 @@ import React from "react";
 import './index.css';
 import PublishDesign from "../../core/pages-layout/publish-component";
 
-const PublishComponent = () => {
+const PublishPage = () => {
     
     return (
         <div className="publish">
@@ -10,4 +10,4 @@ const PublishComponent = () => {
         </div>
     );
 }
-export default PublishComponent;
+export default PublishPage;

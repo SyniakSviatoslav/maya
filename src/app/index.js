@@ -5,7 +5,7 @@ import AboutComponent from './pages/about';
 import CollectionComponent from './pages/collection';
 import SignInComponent from './pages/sign-in';
 import HomeComponent from './pages/home';
-import PublishComponent from './pages/publish';
+import PublishPage from './pages/publish';
 import { collectionPath, publishPath, aboutPath, signInPath, homePath } from './constants/urls';
 
 
@@ -20,7 +20,7 @@ const AppComponent = () => {
           <AboutComponent />
         </Route>
         <Route path={publishPath}>
-          <PublishComponent />
+          <PublishPage />
         </Route>
         <Route path={signInPath}>
           <SignInComponent />
